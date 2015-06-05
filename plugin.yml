@@ -1,0 +1,21 @@
+name: mStats
+version: 0.1
+main: mstats.main.Main
+description:
+authors: [mckpvp, Googlelover1234]
+
+commands:
+    stats:
+      description:
+      usage: /<command> (name)
+    reload:
+      description:
+      usage: /<command>
+    reset:
+      description:
+      usage: /<command> (name)
+        
+permissions:
+    mstats.reset:
+      description:
+      default: op
